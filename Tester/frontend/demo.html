@@ -49,6 +49,9 @@ div {
   <form action = "" method = "post" >
     {% csrf_token %}
     <h5>Question: "Write sample question here" ? </h5>
+    <h5>Please upload model answer sheet below :</h5>
+    <input name="model-answer-sheet" type="file">
+    <button type="submit">Upload Model Answer-sheet</button>
     <h5>Please upload your answer sheet below :</h5>
     <input name="answer-sheet" type="file">
     <button type="submit">Upload Answer-sheet</button>
